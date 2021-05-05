@@ -1,0 +1,16 @@
+[package]
+name = "gut-lib"
+version = "0.1.0"
+authors = ["Jared De La Cruz <jared@jareddlc.com>"]
+description = "Helper library that provides common functionality for Gut"
+repository = "https://github.com/gut-hub/gut-lib"
+categories = ["gut"]
+readme = "README.md"
+license = "MIT"
+edition = "2018"
+
+[dependencies]
+dirs = "3"
+serde_json = "1"
+termion = "1.5"
+unicode-segmentation = "1.7"
